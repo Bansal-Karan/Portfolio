@@ -3,6 +3,7 @@ import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import About from './components/About.jsx';
+import Projects from './components/Projects.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { div } from 'framer-motion/client';
 
@@ -28,7 +29,14 @@ function App() {
       )
     },
     {
-
+      path: "/projects", 
+      element: (
+        <div>
+          <Navbar/>
+          <Projects />
+          <Footer/>
+        </div>
+      )
     }
   ]);
   

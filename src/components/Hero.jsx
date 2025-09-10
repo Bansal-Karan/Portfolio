@@ -8,7 +8,7 @@ function Hero() {
         <section className="min-h-screen flex flex-col justify-center pb-20">
             <div className="flex items-center min-h-screen justify-center w-full">
                 <div className="max-sm:my-40 px-10 grid sm:grid-cols-2 gap-20 md:gap-30 lg:gap-60">
-                    <div className="flex flex-col justify-center gap-4">
+                    <div className="flex flex-col justify-center px-5 gap-4">
                         <h1 className="text-4xl">
                             Hi There!{" "}
                             <motion.span
@@ -62,9 +62,9 @@ function Hero() {
                         <span className="text-purple-500 font-bold italic">Deep Learning and Natural Launguage Processing.</span>
                         <br /><br />
                         Whenever possible, I also apply my passion for developing products
-                        with and
-                        Modern Javascript Library and Frameworks like &nbsp;
-                        <span className="text-purple-500 font-bold italic">React.js</span>
+                        with
+                        Modern Javascript Library and Frameworks like 
+                        <span className="text-purple-500 font-bold italic"> React.js</span>
                     </p>
                 </div>
                 <div>

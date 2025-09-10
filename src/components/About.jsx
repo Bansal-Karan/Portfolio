@@ -32,6 +32,23 @@ const tools = [
   SiFigma
 ]
 
+const purpleTheme = {
+  light: [
+    "#d1cbcb", // empty
+    "#8B5CF6", // level1
+    "#7C3AED", // level2
+    "#6D28D9", // level3
+    "#5B21B6", // level4
+  ],
+  dark: [
+    "#d1cbcb",
+    "#8B5CF6",
+    "#7C3AED",
+    "#6D28D9",
+    "#5B21B6",
+  ],
+};
+
 const About = () => {
   return (
     <section className='min-h-screen flex flex-col justify-center pb-20'>
@@ -71,7 +88,7 @@ const About = () => {
         <div className='justify-center text-center'>
           <h1>Porfessional <span className='text-purple-500'>Skillset</span></h1>
           <div>
-            <div className="grid px-40 my-20 grid-cols-5 gap-6 text-white text-5xl">
+            <div className="grid lg:px-40 sm:px-20 px-10 my-20 lg:grid-cols-5 md:grid-cols-3 grid-cols-2 sm:grid-cols-2 gap-6 text-white text-5xl">
               {skills.map((Skill, index) => (<div key={index} className="flex justify-center items-center border py-10 rounded-md shadow-md hover:shadow-purple-500/50 transition duration-300">
                 <Skill className="text-5xl text-white" />
               </div>))}
@@ -84,7 +101,7 @@ const About = () => {
         <div className='justify-center text-center'>
           <h1><span className='text-purple-500'>Tools</span> I Use</h1>
           <div>
-            <div className="grid px-40 my-20 grid-cols-4 gap-6 text-white text-5xl">
+            <div className="grid lg:px-40 sm:px-20 px-10 my-20 lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-6 text-white text-5xl">
               {tools.map((Tool, index) => (<div key={index} className="flex justify-center items-center border py-10 rounded-md shadow-md hover:shadow-purple-500/50 transition duration-300">
                 <Tool className="text-5xl text-white" />
               </div>))}
@@ -93,18 +110,18 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      <div className='flex flex-col px-5'>
         <div className="text-center my-20">
           <h1>
             Days I <span className="text-purple-500">Code</span>
           </h1>
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center mt-10 px-10">
             <GitHubCalendar
               username="Bansal-Karan"
               blockSize={15}
               blockMargin={5}
               fontSize={16}
-              colorScheme="dark"
+              theme={purpleTheme}
             />
           </div>
         </div>
