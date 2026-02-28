@@ -1,11 +1,89 @@
-# React + Vite
+## 💼 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://portfolio-theta-beige-41.vercel.app
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
+
+This is a modern and responsive personal portfolio website built using
+**React.js** and **Tailwind CSS**.\
+It showcases my skills, projects, resume, and GitHub coding activity.
+
+The portfolio is designed to present my work professionally and provide
+an interactive experience for visitors.
+
+------------------------------------------------------------------------
+
+## 🚀 Features
+
+-   🏠 Home Section
+-   👤 About Section
+-   📂 Projects Showcase
+-   📄 Resume Section
+-   📊 GitHub Contribution Heatmap (via API integration)
+-   📱 Fully Responsive Design
+
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
+
+-   **Frontend:** React.js
+-   **Styling:** Tailwind CSS
+-   **Deployment:** Vercel
+-   **API Integration:** GitHub Contribution Graph API
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+```
+Portfolio/ 
+├── public/ 
+├── src/ 
+│    ├── components/ 
+│    ├── pages/ 
+│    ├── assets/ 
+│    └── App.jsx 
+├── package.json 
+└── README.md
+```
+------------------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+
+1.  Clone the repository git clone
+    https://github.com/Bansal-Karan/Portfolio.git
+
+2.  Navigate into the project directory cd Portfolio
+
+3.  Install dependencies npm install
+
+4.  Start the development server npm run dev
+
+5.  Open in browser http://localhost:5173
+
+------------------------------------------------------------------------
+
+## 📊 GitHub Contribution Map
+
+This portfolio integrates a GitHub API to dynamically display my yearly
+contribution heatmap, reflecting my coding consistency and activity.
+
+------------------------------------------------------------------------
+
+## 🔮 Future Improvements
+
+-   Add blog section
+-   Add dark/light theme toggle
+-   Add animations using Framer Motion
+-   Improve performance optimization
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+Karan Bansal\
+Computer Science Engineering Student
 
 ## Expanding the ESLint configuration
 
