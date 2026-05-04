@@ -8,6 +8,8 @@ import {
   SiPostman,
   SiVercel,
   SiFigma,
+  SiStripe,
+  SiCloudinary,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import GitHubCalendar from "react-github-calendar";
@@ -18,8 +20,6 @@ const skills = [
   SiNodedotjs,
   SiReact,
   SiMongodb,
-  SiGit,
-  SiFirebase,
   SiPostgresql,
   SiPython,
   SiTailwindcss
@@ -29,7 +29,11 @@ const tools = [
   VscVscode,
   SiPostman,
   SiVercel,
-  SiFigma
+  SiFigma,
+  SiStripe,
+  SiCloudinary,
+  SiGit,
+  SiFirebase,
 ]
 
 const purpleTheme = {
@@ -53,11 +57,11 @@ const About = () => {
   return (
     <section className='min-h-screen flex flex-col justify-center pb-20'>
       <div className='flex items-center min-h-screen justify-center w-full'>
-        <div className='max-sm:my-40 px-20 grid sm:grid-cols-2 gap-20 md:gap-30 lg:gap-60'>
+        <div className='max-sm:my-40 sm:px-20 px-6 grid sm:grid-cols-2 gap-10 sm:gap-20 md:gap-30 lg:gap-40'>
           <div className='flex flex-col justify-center gap-4'>
             <h1>Know Who <span className='text-purple-500 font-bold'>I'M </span></h1>
-            <p className="text-lg">Hi Everyone, I am <span className='text-purple-500 font-bold'>Karan Bansal</span> from <span className='text-purple-500 font-bold'>Samana, Punjab. </span>
-              I am currently persuing bachlors of technology in <span className='text-purple-500 font-bold'>Computer Science Engineering</span> from Chandigarh Engineering College Landran, Mohali.
+            <p className="text-base sm:text-lg">Hi Everyone, I am <span className='text-purple-500 font-bold'>Karan Bansal</span> from <span className='text-purple-500 font-bold'>Samana, Punjab. </span>
+              Currently i am persuing bachlors of technology in <span className='text-purple-500 font-bold'>Computer Science Engineering</span> from Chandigarh Engineering College Landran, Mohali.
             </p>
             <br />
             Apart from coding, some other activities that I love to do!
@@ -67,18 +71,22 @@ const About = () => {
             </p>
             <p className="flex items-center gap-2">
               <FaRegHandPointRight className="text-2xl" />
-              Writing Tech Blogs
+              Reading Books
             </p>
             <p className="flex items-center gap-2">
               <FaRegHandPointRight className="text-2xl" />
-              Travelling
+              Riding Bikes
+            </p>
+            <p className="flex items-center gap-2">
+              <FaRegHandPointRight className="text-2xl" />
+              Listening Music
             </p>
           </div>
           <div className='flex items-center justify-end'>
             <img
               src="/about.aee0f771fbfc1e7b8fa8.png"
               alt="Developer at desk"
-              className="w-[400px]"
+              className="sm:w-[400px] w-[300px]"
             />
           </div>
         </div>
@@ -86,9 +94,9 @@ const About = () => {
 
       <div>
         <div className='justify-center text-center'>
-          <h1>Porfessional <span className='text-purple-500'>Skillset</span></h1>
+          <h1 className="text-3xl sm:text-4xl">Porfessional <span className='text-purple-500'>Skillset</span></h1>
           <div>
-            <div className="grid lg:px-40 sm:px-20 px-10 my-20 lg:grid-cols-5 md:grid-cols-3 grid-cols-2 sm:grid-cols-2 gap-6 text-white text-5xl">
+            <div className="grid lg:px-40 sm:px-20 px-10 my-20 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 sm:grid-cols-2 gap-6 text-white text-5xl">
               {skills.map((Skill, index) => (<div key={index} className="flex justify-center items-center border py-10 rounded-md shadow-md hover:shadow-purple-500/50 transition duration-300">
                 <Skill className="text-5xl text-white" />
               </div>))}
@@ -99,7 +107,7 @@ const About = () => {
 
       <div>
         <div className='justify-center text-center'>
-          <h1><span className='text-purple-500'>Tools</span> I Use</h1>
+          <h1 className="text-3xl sm:text-4xl"><span className='text-purple-500'>Tools</span> I Use</h1>
           <div>
             <div className="grid lg:px-40 sm:px-20 px-10 my-20 lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-6 text-white text-5xl">
               {tools.map((Tool, index) => (<div key={index} className="flex justify-center items-center border py-10 rounded-md shadow-md hover:shadow-purple-500/50 transition duration-300">
@@ -112,7 +120,7 @@ const About = () => {
 
       <div className='flex flex-col px-5'>
         <div className="text-center my-20">
-          <h1>
+          <h1 className="text-3xl sm:text-4xl">
             Days I <span className="text-purple-500">Code</span>
           </h1>
           <div className="flex justify-center mt-10 px-10">

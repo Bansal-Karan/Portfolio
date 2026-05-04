@@ -7,9 +7,9 @@ function Hero() {
     return (
         <section className="min-h-screen flex flex-col justify-center pb-20">
             <div className="flex items-center min-h-screen justify-center w-full">
-                <div className="max-sm:my-40 px-10 grid sm:grid-cols-2 gap-20 md:gap-30 lg:gap-60">
-                    <div className="flex flex-col justify-center px-5 gap-4">
-                        <h1 className="text-4xl">
+                <div className="max-sm:my-20 mx-auto max-w-7xl px-6 sm:px-10 grid gap-10 sm:grid-cols-2 sm:items-center">
+                    <div className="flex flex-col justify-center gap-4 sm:max-w-xl">
+                        <h1 className="text-3xl sm:text-4xl">
                             Hi There!{" "}
                             <motion.span
                                 className="inline-block"
@@ -19,7 +19,7 @@ function Hero() {
                                 👋🏻
                             </motion.span>
                         </h1>
-                        <h2 className="text-5xl">
+                        <h2 className="text-4xl sm:text-5xl leading-tight">
                             I'M <span className="text-purple-500 font-bold">KARAN BANSAL</span>
                         </h2>
 
@@ -32,30 +32,30 @@ function Hero() {
                             wrapper="span"
                             speed={70}
                             repeat={Infinity}
-                            className="text-2xl text-purple-400"
+                            className="text-xl sm:text-2xl text-purple-400"
                         />
                     </div>
 
-                    <div className="flex items-center justify-end">
+                    <div className="flex items-center justify-center sm:justify-end">
                         <img
                             src="/undraw_programming_65t2.svg"
                             alt="Developer at desk"
-                            className="w-[400px]"
+                            className="w-full max-w-[400px]"
                         />
                     </div>
                 </div>
             </div>
 
-            <div className="flex items-center justify-between sm:flex-row flex-col px-20">
+            <div className="flex items-center justify-between sm:flex-row flex-col sm:px-20 px-6">
                 <div className="font-serif">
-                    <h1 className="text-4xl ">
+                    <h1 className="text-3xl sm:text-4xl ">
                         LET ME <span className="text-purple-500"> INTRODUCE </span> MY SELF
                     </h1>
-                    <p className="text-lg mt-4 text-justify sm:w-3/5">
+                    <p className="text-base sm:text-lg mt-4 text-justify sm:w-3/5">
                         I fell in love with programming and I have at least learnt
                         something, I think… 🤷‍♂️
                         <br /><br />
-                        I am fluent in classics like <span className="text-purple-500 font-bold italic">C, C++, and Java</span>.
+                        I am fluent in classics like <span className="text-purple-500 font-bold italic">C, C++, Python and PHP</span>.
                         <br /><br />
                         My field of Interest's are building new &nbsp;
                         <span className="text-purple-500 font-bold italic">Web Technologies and Products</span> and also in areas related to{" "}
@@ -83,7 +83,7 @@ function Hero() {
                 <p>Feel free to <span className="text-purple-500 font-bold">connect</span> with me</p>
                 <ul className='flex gap-8 justify-center mt-4'>
                     <li>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Bansal-Karan" target="_blank" rel="noopener noreferrer">
                             <FaGithub size={40} />
                         </a>
                     </li>
@@ -93,12 +93,12 @@ function Hero() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/karan-bansal-136452292" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={40} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/karan_bansal_946?igsh=dWkyaWx6MXgwMWI1" target="_blank" rel="noopener noreferrer">
                             <FaInstagram size={40} />
                         </a>
                     </li>

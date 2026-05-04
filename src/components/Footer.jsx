@@ -14,7 +14,7 @@ const Footer = () => {
             <div>
                 <ul className='flex gap-8 max-sm:my-5 justify-center'>
                     <li>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Bansal-Karan" target="_blank" rel="noopener noreferrer">
                             <FaGithub />
                         </a>
                     </li>
@@ -24,12 +24,12 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/karan-bansal-136452292" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/karan_bansal_946?igsh=dWkyaWx6MXgwMWI1" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                     </li>
