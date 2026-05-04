@@ -26,7 +26,7 @@ const links = [
 
   {
     Element: FaFileAlt,
-    path: '/Resume.pdf',
+    path: '/Resume.pdf?v=2',
     name: 'Resume',
     external: true
   },
